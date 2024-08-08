@@ -1,1 +1,0 @@
-{"version":3,"file":"main.js","mappings":";;AAAqB","sources":["webpack://webpack-eslint-prettier-template/./src/index.js"],"sourcesContent":["import \"./style.css\";\n"],"names":[],"sourceRoot":""}
