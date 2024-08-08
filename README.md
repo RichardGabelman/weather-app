@@ -1,1 +1,1 @@
-# webpack-eslint-prettier-template
+# weather app
