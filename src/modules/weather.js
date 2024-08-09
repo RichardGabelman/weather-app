@@ -4,4 +4,4 @@ export class Weather {
     this.location = json.resolvedAddress;
     this.description = json.description;
   }
-};
+}
