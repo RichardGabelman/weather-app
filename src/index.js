@@ -1,4 +1,7 @@
 import "./style.css";
 import { getWeatherData } from "./modules/weatherAPI";
+import { Weather } from "./modules/weather";
 
-getWeatherData("Oceanside").then(console.log);
+let json = await getWeatherData("Oceanside");
+let currentWeather = new Weather(json);
+console.log(currentWeather);

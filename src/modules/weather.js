@@ -1,6 +1,7 @@
 export class Weather {
   constructor(json) {
-    this.temp = 0;
-    this.location = "test";
+    this.temp = json.currentConditions.temp;
+    this.location = json.resolvedAddress;
+    this.description = json.description;
   }
 };
