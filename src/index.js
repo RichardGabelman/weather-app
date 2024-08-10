@@ -1,4 +1,4 @@
 import "./style.css";
-import { setupForm } from "./modules/locationSubmit";
+import { setupListeners } from "./modules/eventSetup";
 
-setupForm();
+setupListeners();
