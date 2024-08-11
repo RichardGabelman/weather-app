@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
   background-color: midnightblue;
 }
 
@@ -26,6 +26,41 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
 }
 
+.middle {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.forecast {
+  display: grid;
+  grid-template-rows: repeat(1fr, 7);
+  gap: 6px;
+}
+
+.small {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 5px;
+  height: 100%;
+  width: 150px;
+  background-color: rgb(19, 19, 73);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.small h3 {
+  font-size: 1rem;
+}
+
+.small p {
+  font-size: 0.9rem;
+}
+
 .weatherCard {
   position: relative;
   display: flex;
@@ -34,8 +69,8 @@ h1 {
   align-items: center;
   gap: 125px;
   padding: 50px;
-  width: 530px;
-  height: 600px;
+  width: 600px;
+  height: 700px;
   border-radius: 5px;
   background-color: rgb(19, 19, 73);
   color: white;
@@ -72,6 +107,7 @@ h1 {
 .weatherCard p {
   text-align: center;
   justify-self: flex-end;
+  font-size: 3rem;
 }
 
 .locationForm {
